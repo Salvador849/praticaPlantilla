@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border:0px;
+}
+
+header  .contenedor{
+
+    width:1020px;
+    max-width:90%;
+    margin: auto;
+    border:1px solid cornflowerblue;
+
+}
+
+header  .contenedor .biblioteca{
+    background: #0174dfd5;
+    /* border: none; */
+    padding: 3px;
+}
+
+header  .contenedor .biblioteca a{
+    color: white;
+    text-decoration: none;
+    font-size:14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:10px;
+   
+}
+header  .contenedor .biblioteca span{
+    color:#0174dfd5;;
+    background:white;
+    padding:1px;
+    margin-right: 5px;
+}
+
+header .contenedor .plus{
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding:20px;
+}
+
+header .contenedor .plus .medine h2{
+color: #0080FF;
+}
+
+header .contenedor .plus .medine span{
+    color: tomato;
+}
+header .contenedor .plus .medine p{
+    color: #0080FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .contenedor .plus input{
+    /* background: turquoise; */
+    display:block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+header .contenedor .plus input{
+    
+    border:1px solid #ccc ;
+}
+
+header .contenedor .plus .medine1 .menu-med{
+    /* background: #0080FF; */
+    padding: 6px;
+}
+
+header .contenedor .plus .medine1 .menu-med a {
+    text-decoration: none;
+    padding: 3px;
+    color:#6E6E6E;
+}
+
+header .contenedor .plus .medine1 .menu-med a:hover{
+    text-decoration: underline;
+}
+
+header .contenedor  .menu{
+    
+    background:#E6E6E6;
+    padding: 11px;
+    
+
+    
+}
+
+header .contenedor  .menu a{
+    padding: 10px;
+    display:inline;
+    
+}
+header .contenedor  .menu a:hover{
+    background: #0080FF;
+}
